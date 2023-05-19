@@ -10,8 +10,8 @@
 
 body {
     background: #bdcfe0;
-    height: 100vh;
     display: flex;
+    height: 100vh;
 }
 
 .section {
@@ -31,14 +31,14 @@ body {
 .section .content h1 {
     font-size: 3rem;
     font-weight: 600;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     color: #2c3e50;
 }
 
 .section .content h3 {
     font-size: 1.5rem;
     font-weight: 500;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     color: #2c3e50;
 }
 
@@ -54,13 +54,10 @@ body {
     height: 50px;
     border: none;
     outline: none;
-    border-radius: 30px;
-    background: #8A6CFF;
+    border-radius: 20px;
+    background: #2475c6;
     color: #fff;
-    font-size: 1rem;
-    font-weight: 500;
     cursor: pointer;
-    transition: all 0.3s ease;
 }
 
 .section .image {
@@ -70,7 +67,7 @@ body {
     align-items: center;
 }
 
-.section .image div {
+.section .image .image_box {
     width: 500px;
     height: 500px;
     border-radius: 20px;
@@ -81,17 +78,17 @@ body {
     display: flex;
     color: #fff;
     position: fixed;
-    bottom: 5px;
     left: 50%;
+    bottom: 10px;
     gap: 10px;
     transform: translateX(-50%);
 }
 
-
 .color .rect_box {
     width: 150px;
     height: 150px;
-    /* background: #8A6CFF; */
+    background: #000;
     border: 2px solid #fff;
     border-radius: 20px;
+    cursor: pointer;
 }
